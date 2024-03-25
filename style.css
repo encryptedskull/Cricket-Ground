@@ -1,0 +1,74 @@
+.ground {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: rgb(186, 255, 186);
+  position: relative;
+}
+.boundary {
+  height: 650px;
+  width: 650px;
+  border-radius: 50%;
+  background-color: rgb(56, 146, 56);
+  border: 3px dashed rgb(255, 0, 0);
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  /* animation: chakar 10s linear 3s infinite; */
+}
+
+/* @keyframes chakar {
+  100% {
+    transform: rotate(45deg);
+  }
+} */
+.yard {
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  border: 6px dotted white;
+  position: absolute;
+  top: 130px;
+  left: 130px;
+  /* 
+  animation: chakar 10s linear 3s infinite; */
+}
+.pitch {
+  height: 200px;
+  width: 97px;
+  background-color: rgb(225, 191, 148);
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+.bowler_end {
+  position: absolute;
+  top: 138px;
+}
+.wider {
+  rotate: 90deg;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.widel {
+  rotate: 90deg;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
+
+.bwider {
+  rotate: 90deg;
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+}
+
+.bwidel {
+  rotate: 90deg;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
